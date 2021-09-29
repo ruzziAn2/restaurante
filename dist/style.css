@@ -14,6 +14,7 @@ h1 {
 }
 
 h2 {
+    font-size: xx-large;
     text-align: center;
 }
 
@@ -21,6 +22,7 @@ p {
     text-align: center;
     background-color: rgb(13, 116, 98);
     color: seashell;
+    font-size: large;
 }
 
 img {
@@ -32,6 +34,7 @@ img {
 }
 
 button {
+    font-size: xx-large;
     margin: 0px 150px 0px 150px;
     padding: 30px;
     background-color: rgb(13, 116, 98);
@@ -51,6 +54,7 @@ button {
 
 .description>div {
     font-family: Monaco, monospace;
+    
 }
 
 .costo {
