@@ -6,7 +6,7 @@ function createMenu(src, alt, text, price) {
     img.setAttribute('src', src);
     img.setAttribute('alt', alt);
     img.setAttribute('width', 700);
-    img.setAttribute('heigth', 500)
+    img.setAttribute('heigth', 500);
 
     const desc = document.createElement('div');
     desc.classList.add('description');
@@ -16,6 +16,7 @@ function createMenu(src, alt, text, price) {
 
     const cost = document.createElement('div');
     cost.innerHTML = price;
+    cost.classList.add('costo');
 
     desc.appendChild(foodName);
     desc.appendChild(cost);
@@ -42,12 +43,12 @@ function loadMenu() {
     const items = [
         createMenu('https://www.ocu.org/-/media/ocu/images/themes/alimentacion/alimentos/tips/pollo%20guia%20para%20elegir%20y%20conservar/456844_thumbnail.jpg?rev=0e3d5afb-0096-4cbb-8cb9-681c40b3931b&hash=BFA0625F79DEFA51156AAB8C93A66D41',
             "Pollo",
-            "Rico en transgenicos",
+            "Pollo rico en transgenicos",
             'Barato'
         ),
         createMenu('https://www.hola.com/imagenes/cocina/noticiaslibros/20210301185081/recetas-con-pescados-de-temporada/0-923-910/besugos-age-a.jpg',
             'Pescado',
-            'Rico en mercurio',
+            'Pescado rico en mercurio',
             'CARISIMOOO'),
         createMenu('https://storage.contextoganadero.com/s3fs-public/blog/field_image/2018-10/26-10_importancia_color_carne.jpg',
             'Carne de Res',

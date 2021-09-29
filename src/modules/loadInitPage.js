@@ -37,6 +37,7 @@ function loadPage(){
     console.log('Cargando pagina');
 
     const content = document.getElementById('content');
+   
 
     const header = createHeader('header', '¡Acá si que no se coge!');
     content.appendChild(header);
@@ -46,6 +47,7 @@ function loadPage(){
 
     const tabContent = createMain('tab-content');
     content.appendChild(tabContent);
+
 }
 
 export default loadPage;
